@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.sidenav {
+			  height: 100%;
+			  width: 200px;
+			  position: fixed;
+			  z-index: 1;
+			  top: 0;
+			  left: 0;
+			  background-color: #111;
+			  overflow-x: hidden;
+			  padding-top: 20px;
+			}
+		.sidenav a {
+		  padding: 6px 6px 6px 40px;
+		  
+		  text-decoration: none;
+		  font-size: 25px;
+		  color: #818181;
+		  display: block;
+		}
+
+		.sidenav a:hover {
+		  color: #f1f1f1;
+		}
+
+	</style>
+</head>
+<body>
+<div class="sidenav">
+  <a href="/rice/">Rice and Rice products</a><br>
+  <a href="#">Masala and Spices</a><br>
+  <a href="#">Aata and flour</a><br>
+  <a href="#">Fruits and Vegetables</a><br>
+  <a href="#">Edible Oils and Ghee</a><br>
+  <a href="#">Dry Fruits</a><br>
+  <a href="/cart/">My Cart</a>
+</div>
+{% block content %}
+{% endblock %}
+</body>
+</html>
